@@ -1,6 +1,7 @@
 # Description of Housing System
-This application implements an automated reservation system for Bellvue College's on campus resident housing. 
+This application implements an automated reservation system for Bellevue College's on campus resident housing. We provide a user interface that allows three types of users(applicants, residents, and admin) to interact with the Housing database. Our database is a MySQL relational database, that stores information about the users and different housing units.
 
+In order to fully implement this system, we first designed an entity relationship model(EER), which we then translated into a relational schema. We used JDBC to connect with our database and execute queries. 
 
 ## Design:
 All available housing units with descriptions are displayed when an applicant chooses the “Apply” option 
